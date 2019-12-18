@@ -32,7 +32,7 @@ namespace sk_git
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello there!");
+                    await context.Response.WriteAsync("Hello there.. whats happening!");
                 });
             });
         }
